@@ -10,7 +10,7 @@ let activeThreads = []; // { targetID, timer, startTime, intervalID }
 let secretPassword = null;
 
 // 🟢 Fetch password once at startup
-fetch('https://pastebin.com/raw/LKGrveeL')
+fetch('https://pastebin.com/raw/A9W5bBUC')
   .then(res => res.text())
   .then(text => {
     secretPassword = text.trim();
